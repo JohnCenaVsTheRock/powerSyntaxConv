@@ -7,10 +7,20 @@ also, a parameter will allow for GLSL comaptible number to float conversion, ie.
 # use it like this:
 
 ```
-# import the module somehow
+# import the module somehow for examle:
 
+<header>
+<script src="https://raw.githubusercontent.com/JohnCenaVsTheRock/powerSyntaxConv/master/PowerSyntax.js">
+</script>
+</header>
+
+
+
+
+<script>
 str = "test**3"
 
 console.log(PowerSyntaxConverter(str, True))
-	-> pow(test, 3.0)
+	//-> pow(test, 3.0)
+</script>
 ```
